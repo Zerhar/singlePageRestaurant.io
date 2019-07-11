@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Playball|Roboto');
+
+  body {
+  margin-top: 56px;
+}
+
+  #meny::before, #hem::before, #kontaktaoss::before {
+  display: block;
+  content: " ";
+  margin-top: -55px;
+  height: 55px;
+  visibility: hidden;
+  pointer-events: none;
+  }
+
+  .jumbotron {
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    color: white;
+    font-weight: bold;
+}
+
+  .display-4 {
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+}
+
+  #subHeader {
+  position: relative;
+}
+
+  .followMeBar {
+    background: #fff;
+    padding: 57px 0 5px 0;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+  }
+
+  .followMeBar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .followMeBar.fixed.absolute {
+    position: absolute;
+  }
+
+  .menu-section {
+    margin-bottom: 0px;
+  }
+
+  .menu-section-title {
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    display: block;
+    font-weight:normal;
+  }
+
+  .menu-item {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .col-md-6 {
+    z-index: -5;
+  }
+
+  .menu-item-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px dotted rgb(43, 43, 43);
+  }
+
+  .menu-item-description {
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+  }
+
+  .menu-item-price{
+    font-weight: bold;
+    font-family: arial;
+    float: right;
+    margin-top: -28px;
+  }
+
+  #map {
+    width: 100%;
+    height: 50vh;
+    max-height: 400px;
+    background-color: grey;
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 0px !important;
+  }
+
+  .text-muted {
+    padding: 30px 0;
+    margin-bottom: 0;
+  }
